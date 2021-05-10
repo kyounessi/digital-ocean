@@ -1,0 +1,32 @@
+:root{
+    --blue-1: #B0C4DE;
+    --blue-2: #4169E1;
+    --white: #F8F8FF;
+    --black: #000000;
+    
+    
+}
+body{
+    font-family:sans-serif;
+    font-size:1.6em;
+    background: var(--white);
+    
+}
+  
+.coming-soon{
+    background: var(--blue-1);
+    padding: 0.5rem;
+    text-align: center;
+    color: var(--black);
+    font-weight: bold;
+    font-size: 2rem;
+    font-variant-caps: petite-caps;
+    border: solid 2px var(--black);
+}
+  
+.name{
+    background: var(--blue-2);
+    font-size:3rem;
+    
+    
+}

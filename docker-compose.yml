@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+    main-server:
+        build:
+            context: ./server
+        ports: 
+            - 80:2345
+        volumes:
+            - ./server/src:/app
+        container_name: web-server
